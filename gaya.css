@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Maven+Pro:wght@400;900&family=Russo+One&display=swap');
+
+
+body {
+    background: #000000;
+    overflow-x: hidden;
+}
+
+h3{
+    color: #ff287e;
+}
+header p{
+    color: white;
+}
+
+
+.meta-post{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.header header {
+    /* background-color: #ff7e21; */
+    background-image: linear-gradient(to right, rgb(251, 164, 43,0), rgb(255, 88, 158,0));
+    padding: 10px 20px;
+}
+
+
+.navbar-custom {
+    background-color: #ff4655;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgb(0, 0, 0);
+}
+
+aside.widget li{
+    list-style: none;
+}
+
+
+h1{
+    /* color: #ff287e; */
+    color: #ee2529;
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+ }
+
+.content {
+    color: white;
+
+}
+
+.sampingnih{
+    padding-top: 5px;
+    color: white;
+}
+
+.nav-link {
+    font-family: 'Russo One', sans-serif;
+    font-weight: lighter;
+    color: white;
+
+}
+.nav-link:hover{
+    color: #ff287e;
+}
+
+.navbar-toggler {
+    color: white;
+  }
+  
+
+.widget-tittle{
+    color: #ee2529;
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: 300;
+    font-size: 39px;
+    padding-top: 100px;
+    /* padding-left: 100px; */
+}
+
+p {
+    font-family: 'Maven Pro', sans-serif;
+    text-align: justify;
+}
+
+.bawah{
+    padding-top: 50px;
+    height: 100vh;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    display: block;
+    z-index: 2;
+
+}
+
+table{
+    color: white;
+}
+
+table thead {
+    color: white;
+    font-weight: lighter;
+}
+
+table tr th {
+    color: white;
+}
+
+table tbody tr td {
+    color: white;
+}
+
+img{
+    border-radius: 10px;
+}
+
+.btn{
+    width: 480px;
+    height: 60px;
+    border: 20cap;
+    border-color: white;
+    font-family: 'Maven Pro', sans-serif;
+    background-color: rgb(251, 164, 43,0);
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+.btn:hover{
+    background-color: #ee2529;
+    
+}
+
+.keterangan-judul{
+    font-family: 'Russo One', sans-serif;
+    color: white;
+}
+.keterangan{
+    font-family: 'Maven Pro', sans-serif;
+    color: white;
+}
+
+.posts{
+    height: 100vh;
+}
+
+#engine {
+    color: #ee2529;
+    font-size: 4em;
+    padding-top: 50px;
+    padding-bottom: 0.5vh;
+    
+}
+/* 
+@media screen and (min-width: 720px) {
+    .btn{
+        width: 200px;
+        height: 60px;
+    }
+} */
